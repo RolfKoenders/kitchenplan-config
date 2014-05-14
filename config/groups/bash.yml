@@ -1,0 +1,12 @@
+recipes:
+    global:
+        - dotfiles::bash_it
+        - dotfiles::inputrc
+        - applications::bash
+attributes:
+    homebrewalt:
+        apps:
+            - bash-completion
+        cask_apps:
+            - zsh
+            - oh-my-zsh
